@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         好大学在线选择题答题情况查看
 // @namespace    https://zby.io
-// @version      0.3
+// @version      0.4
 // @description  显示好大学在线测验与作业选择题回答情况
 // @author       fourstring
 // @match        https://cnmooc.org/examTest/stuExamList/*
@@ -25,9 +25,6 @@
     }
     function checkErrorFlags(){
         let problemsList=$('div.view-test.practice-item').toArray();
-        if (!problemsList){
-            return;
-        }
         for (let problem of problemsList) {
             let currentProblemId=problem.getAttribute("id");
             if ($("div#"+currentProblemId+" a.input-r.selected").toArray().length>0){
