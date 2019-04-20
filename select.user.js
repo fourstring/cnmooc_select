@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         好大学在线选择题答题情况查看
 // @namespace    https://zby.io
-// @version      0.4
+// @version      0.5
 // @description  显示好大学在线测验与作业选择题回答情况
 // @author       fourstring
 // @match        https://cnmooc.org/examTest/stuExamList/*
+// @match        https://www.cnmooc.org/examTest/stuExamList/*
+// @match        https://www.cnmooc.org/study/*
 // @grant        none
-// @downloadURL  https://greasyfork.org/scripts/382050-%E5%A5%BD%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E9%80%89%E6%8B%A9%E9%A2%98%E7%AD%94%E9%A2%98%E6%83%85%E5%86%B5%E6%9F%A5%E7%9C%8B/code/%E5%A5%BD%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E9%80%89%E6%8B%A9%E9%A2%98%E7%AD%94%E9%A2%98%E6%83%85%E5%86%B5%E6%9F%A5%E7%9C%8B.user.js
-// @updateURL    https://greasyfork.org/scripts/382050-%E5%A5%BD%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E9%80%89%E6%8B%A9%E9%A2%98%E7%AD%94%E9%A2%98%E6%83%85%E5%86%B5%E6%9F%A5%E7%9C%8B/code/%E5%A5%BD%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E9%80%89%E6%8B%A9%E9%A2%98%E7%AD%94%E9%A2%98%E6%83%85%E5%86%B5%E6%9F%A5%E7%9C%8B.user.js
 // ==/UserScript==
 
 (function() {
