@@ -1,7 +1,7 @@
 # cnmooc_select
 允许在好大学在线的选择题答题页面即时查看回答正误情况而无需提交作答的TamperMonkey脚本。
 # 使用
-### Chrome浏览器（包括360等国产浏览器）
+### Chrome浏览器（包括360等国产浏览器）(推荐)
 1. 打开Chrome的[TamperMonkey扩展页面](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN)安装扩展
 1. 如果打不开上面的页面，请到[这里](https://www.chromefor.com/tampermonkey_v4-8/)去下载扩展文件(页面下方有一个"本网站下载“按钮，点击后选择Hong Kong线路即可)，然后在地址栏输入`chrome://extensions/`，将下载下来的扩展文件拖入页面中并确认安装
 2. 使用Chrome打开[脚本发布页面](https://greasyfork.org/zh-CN/scripts/382050-%E5%A5%BD%E5%A4%A7%E5%AD%A6%E5%9C%A8%E7%BA%BF%E9%80%89%E6%8B%A9%E9%A2%98%E7%AD%94%E9%A2%98%E6%83%85%E5%86%B5%E6%9F%A5%E7%9C%8B)，选择安装脚本，并在弹出窗口中进行确认
