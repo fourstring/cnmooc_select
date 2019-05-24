@@ -27,7 +27,7 @@
         let problemsList=$('div.view-test.practice-item').toArray();
         for (let problem of problemsList) {
             let currentProblemId=problem.getAttribute("id");
-            if ($("div#"+currentProblemId+" a.input-r.selected").toArray().length>0){
+            if ($("div#"+currentProblemId+" a.selected").toArray().length>0){
                 let currentResult=problem.getAttribute("error_flag");
                 let addtionalTextArea=$("div#"+currentProblemId+" div.test-attach")[0];
                 addtionalTextArea.appendChild(createTipsNode(currentResult));
