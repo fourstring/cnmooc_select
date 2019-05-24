@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         好大学在线选择题答题情况查看
 // @namespace    https://zby.io
-// @version      0.5
+// @version      0.6
 // @description  显示好大学在线测验与作业选择题回答情况
 // @author       fourstring
 // @match        https://cnmooc.org/examTest/stuExamList/*
