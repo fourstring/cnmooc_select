@@ -8,6 +8,8 @@
 // @match        https://cnmooc.org/examTest/stuExamList/*
 // @match        https://www.cnmooc.org/examTest/stuExamList/*
 // @match        https://www.cnmooc.org/study/*
+// @match        https://*.cnmooc.org/examTest/stuExamList/*
+// @match        https://*.cnmooc.org/study/*
 // @grant        none
 // ==/UserScript==
 
